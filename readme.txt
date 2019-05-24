@@ -1,1 +1,1 @@
-just a simple love calculator
+jUST a Simple Love Calculator Dude!!!
