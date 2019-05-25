@@ -32,29 +32,35 @@ header{
 </head>
 <body>
 	<header>
-	<div class="container">
-			<div class="card w-50 mx-auto text-center">
-  <div class="card-header bg-primary text-white  ">Love Calculator</div>
+	
+<div class="container">
+	
+	<div class="card text-center m-auto" style="border-radius:22px">
+  <div class="card-header bg-primary text-white text-uppercase" style="border-radius:22px">Love Calculator</div>
   <div class="card-body">
-  	<form class="form-inline  m-auto">
+  	<form class="form-inline m-auto" action="#">
   		<div class="form-group m-auto">
-<input type="text" name="" placeholder="Your Name" class="form-control text-center" id="first">	
-  		</div>
-  		<div><span class="pl-3 pr-3">+</span></div>
-  		<div class="form-group">
-<input type="text" name="" placeholder="Love Name" class="form-control text-center" id="second">  					
-  		</div>
-</form>
-<div class=" pr-3 py-4">
-<button class="btn btn-success w-50" id="love" onclick="lover()">Click</button>	
-</div>
-<div>
-<input type="text" name="" class="form-control m-auto w-25 text-center text-danger" placeholder="love%" id="res" >	
-</div>
+  		<input type="text" name="" class="form-control m-auto text-center" placeholder="Your Name" style="width: 210px;" id="first"><div><span class="pl-2 pr-2">+</span></div>
+  	<input type="text" name="" class="form-control m-auto text-center" placeholder="Love Name" style="width: 210px;" id="second">
+  	</div>
+  	</form>
+  	<form class="form-group" action="#">
+  		<button class="btn btn-outline-success mt-3 " style="width: 150px;" onclick="lover()" >Check</button><br><br>
+  		<input type="text" class="form-control m-auto text-center text-danger " placeholder="LOVE PERCENTAGE" style="width: 180px;" id="res">
+  		</form>
+
+
+
+
   </div>
-  <div class="card-footer ">Stay Forever Young</div>
+  <div class="card-footer bg-dark text-white" style="border-radius: 22px;">Stay Forever Young</div>
 </div>
-</div>
+	</div>	
+
+	
+
+
+
 </header>
 
 
