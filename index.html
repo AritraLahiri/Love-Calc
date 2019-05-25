@@ -28,14 +28,64 @@ header{
 	bottom: 50%;
  transform: translate(-2%,-50%);
 }
+@media(min-width: 1200px){
+	#carder{
+		width: 490px;
+		position: absolute;
+		top: 10%;
+		left: 32%;
+
+	}
+}	
+/*@media(max-width: 1200px){
+	#carder{
+		width: 480px;
+		position: absolute;
+		top: 10%;
+		left: 15%;
+
+	}
+}*/
+@media(max-width: 990px){
+	#carder{
+		position: absolute;
+		top: 40%;
+		left: 25%;
+
+	}
+@media(max-width: 720px){
+	#carder{
+		position: absolute;
+		top: 40%;
+		left: 13%;
+
+	}
+}
+@media(max-width: 600px){
+	#carder{
+		position: absolute;
+		top: 40%;
+		left: 5	%;
+
+	}
+}
+@media(max-width: 580px){
+	#carder{
+		position: absolute;
+		top: 5	%;
+		left: 12%;
+
+	}
+}
 </style>
 </head>
 <body>
+
 	<header>
 	
 <div class="container">
 	
-	<div class="card text-center m-auto" style="border-radius:22px">
+	<div class="card text-center m-auto" id="carder" style="border-radius:22px">
   <div class="card-header bg-primary text-white text-uppercase" style="border-radius:22px">Love Calculator</div>
   <div class="card-body">
   	<form class="form-inline m-auto" action="#">
